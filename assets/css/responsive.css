@@ -1,3 +1,4 @@
+/* tablet */
 @media screen and (max-width: 1285px) {
     #hero-text-container {
         width: 90%;
@@ -21,8 +22,19 @@
         max-width: 200px;
     }
 
+    #contact-container {
+        padding: 20px;
+    }
+    #contact-container #contact-form,
+    #contact-card {
+        margin: 20px;
+        /* width: 80vw; */
+        /* left: 10vw; */
+        /* margin-left: 10vw; */
+    }
 }
 
+/* smartphone */
 @media screen and (max-width: 760px) {
     #hero-text-container {
         width: 95%;
@@ -35,7 +47,7 @@
     }
 
     #hero-card {
-        top: 50vh;
+        top: 60vh;
         width: 550px;
         left: 50%;
         transform: translateX(-50%);
@@ -78,7 +90,23 @@
     }
 
     #info2-container {
-	height: 80vh;
-	top: 130vh;
+        height: 80vh;
+        top: 130vh;
     }
+
+    #contact-container {
+        top: 200vh;
+        flex-direction: column-reverse;
+    }
+
+    /* #contact-card { */ 
+	/* width: 90vw; */
+	/* left: -5vw; */
+
+    /* } */
+
+    #footer {
+        top: 200vh;
+    }
+
 }
